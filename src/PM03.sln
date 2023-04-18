@@ -9,11 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{442F4CBD-233
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{598762C6-592E-4111-8E36-AD6B4134BDF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM03.Service", "PM03.Service\PM03.Service.csproj", "{4A125D35-7219-4DB1-A2A5-920523BA0369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PM03.Service", "PM03.Service\PM03.Service.csproj", "{4A125D35-7219-4DB1-A2A5-920523BA0369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM03.Service.Impl", "PM03.Service.Impl\PM03.Service.Impl.csproj", "{8C77F31F-72CC-4AB7-B224-2553FDE4B2F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PM03.Service.Impl", "PM03.Service.Impl\PM03.Service.Impl.csproj", "{8C77F31F-72CC-4AB7-B224-2553FDE4B2F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM03.Service.Impl.Tests", "..\test\PM03.Service.Impl.Tests\PM03.Service.Impl.Tests.csproj", "{0D7A7270-D54D-4188-8F52-0D5C1BFA6300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PM03.Service.Impl.Tests", "..\test\PM03.Service.Impl.Tests\PM03.Service.Impl.Tests.csproj", "{0D7A7270-D54D-4188-8F52-0D5C1BFA6300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{7112B611-1B46-40D7-B6FF-E7F556D3950F}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\Тест-план.docx = ..\doc\Тест-план.docx
+		..\doc\Тест-требования.docx = ..\doc\Тест-требования.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
