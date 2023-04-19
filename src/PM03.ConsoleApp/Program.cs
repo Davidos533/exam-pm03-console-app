@@ -48,13 +48,18 @@ namespace PM03.ConsoleApp
                 Console.WriteLine($"Файл сохранён по пути {savedPath}");
             }, "Некорректный путь к файлу"));
         }
+        
+        private static int index = 0;
 
         private static Smartphone InputSmartphone()
         {
             var s = new Smartphone();
+            
 
-            while (!SafeExec(()=>
+            while (!SafeExec(() =>
             {
+                Console.WriteLine($"Смартфон #{index}");
+                index++;
                 Console.Write("Введите модель (строка): ");
                 s.Model = Console.ReadLine();
 
@@ -63,7 +68,10 @@ namespace PM03.ConsoleApp
 
                 Console.Write("Ведите диагональ (десятичное число, через запятую): ");
                 s.Digonal = double.Parse(Console.ReadLine());
-            }));
+
+                Console.WriteLine();
+
+            })) ;
 
             return s;
         }
