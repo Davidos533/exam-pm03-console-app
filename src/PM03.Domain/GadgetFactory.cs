@@ -25,7 +25,7 @@ namespace PM03.Domain
         /// </summary>
         /// <param name="path">Путь к файлу</param>
         /// <returns></returns>
-        public async Task SaveToFile(string path)
+        public async Task<string> SaveToFile(string path)
         {
             if (string.IsNullOrEmpty(path))
             {
@@ -37,6 +37,8 @@ namespace PM03.Domain
             var filePath = path.EndsWith(".json") ? path : $"{path}.json"; 
 
             await File.WriteAllTextAsync(filePath, serializedSmartphones);
+
+            return filePath;
         }
 
         /// <summary>
