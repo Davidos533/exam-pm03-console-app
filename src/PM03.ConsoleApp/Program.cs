@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PM03.Domain;
+using System;
 
 namespace PM03.ConsoleApp
 {
@@ -13,7 +14,7 @@ namespace PM03.ConsoleApp
         /// <param name="args">Агрументы запуска консольного приложения</param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
