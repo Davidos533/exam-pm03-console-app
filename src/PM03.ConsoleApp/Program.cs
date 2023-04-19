@@ -1,6 +1,5 @@
 ﻿using PM03.Domain;
 using System;
-using System.Globalization;
 
 namespace PM03.ConsoleApp
 {
